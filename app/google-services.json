@@ -1,0 +1,51 @@
+{
+  "project_info": {
+    "project_number": "760216345399",
+    "firebase_url": "https://gmaxgps-200117.firebaseio.com",
+    "project_id": "gmaxgps-200117",
+    "storage_bucket": "gmaxgps-200117.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760216345399:android:dfe6aecbb0f8391b",
+        "android_client_info": {
+          "package_name": "com.gmaxgps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760216345399-mnfra83d0gaotnme9mdn7egcffc1qki3.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "760216345399-hfsi0v2bf6g9197d53kc4n8968t3iear.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzHCbJBmmBZABzkWiw6pP3m8fHkymltqY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760216345399-mnfra83d0gaotnme9mdn7egcffc1qki3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

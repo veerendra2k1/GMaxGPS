@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_margin="10dp"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingRight"
+
+    android:paddingStart="?android:attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?android:attr/listPreferredItemPaddingRight">
+
+
+    <TextView
+        android:id="@android:id/text1"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="5dp"
+
+        android:drawableStart="@drawable/ic_directions_bus_black_24dp"
+
+
+        android:gravity="center_vertical|left"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bg"
+    tools:context=".Activities.LoginOptions">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="40dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/login_logo_size"
+                    android:layout_height="@dimen/login_logo_size"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="15dp"
+                    android:src="@drawable/logo" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/social_button_height">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/google_plus_color"
+                        android:gravity="left|center"
+                        android:paddingLeft="60dp"
+                        android:text="Sign up with Gmail"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/sign_in_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0" />
+
+                    <ImageView
+                        android:layout_width="@dimen/social_button_height"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/transparent_button"
+                        android:padding="15dp"
+                        android:src="@drawable/google" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/social_button_height"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/fb_login_color"
+                        android:gravity="left|center"
+                        android:paddingLeft="60dp"
+                        android:text="Sign up with Facebook"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+
+                    <com.facebook.login.widget.LoginButton
+                        android:id="@+id/login_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+
+                        android:layout_gravity="center_horizontal"
+                        android:alpha="0" />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/social_button_height"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/transparent_button"
+                        android:padding="15dp"
+                        android:src="@drawable/facebook" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/email_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/social_button_height"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/social_button_height"
+
+                        android:gravity="left|center"
+                        android:paddingLeft="60dp"
+                        android:text="Sign up with Gmail"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/social_button_height"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/transparent_button"
+                        android:padding="15dp"
+                        android:src="@drawable/mail" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mobile_signup"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/social_button_height"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/yellow"
+                        android:gravity="left|center"
+                        android:paddingLeft="60dp"
+                        android:text="Sign up with Mobile"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:layout_width="@dimen/social_button_height"
+                        android:layout_height="@dimen/social_button_height"
+                        android:background="@color/transparent_button"
+                        android:padding="15dp"
+                        android:src="@drawable/phone" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/already_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/social_button_height"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+
+                        <TextView
+                            android:id="@+id/already_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/social_button_height"
+                            android:gravity="center"
+
+                            android:text="Already Registered?"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/social_button_height"
+                            android:layout_marginLeft="5dp"
+                            android:layout_toRightOf="@+id/already_text"
+                            android:gravity="center"
+                            android:text="Sign In"
+                            android:textColor="@color/green"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

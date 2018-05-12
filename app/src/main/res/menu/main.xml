@@ -1,0 +1,45 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item
+        android:id="@+id/action_devices"
+        android:title="@string/devices_title"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_maptypes"
+        android:title="@string/map_type"
+        app:showAsAction="never" >
+        <menu >
+            <group android:id="@+id/groupmaptype"
+                android:checkableBehavior="single">
+                <item android:id="@+id/maptypeNORMAL"
+                    android:title="NORMAL" />
+                <item android:id="@+id/maptypeSATELLITE"
+                    android:title="SATELLITE" />
+                <item android:id="@+id/maptypeTERRAIN"
+                    android:title="TERRAIN" />
+                <item android:id="@+id/maptypeHYBRID"
+                    android:title="HYBRID" />
+                <item android:id="@+id/maptypeNONE"
+                    android:title="NONE" />
+
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout_title"
+        app:showAsAction="never" />
+
+
+
+
+
+</menu>

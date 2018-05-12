@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">GMax GPS</string>
+    <string name="app_login">Login</string>
+    <string name="app_loading">Loading…</string>
+
+    //facebook id
+
+    <string name="facebook_app_id_old">2036282099917718</string>
+
+    <string name="facebook_app_id">1812551145713586</string>
+    <string name="fb_login_protocol_scheme">fb2036282099917718</string>
+    //Google client id
+
+    <string name="google_client_id">760216345399-hfsi0v2bf6g9197d53kc4n8968t3iear.apps.googleusercontent.com</string>
+
+    //Phone Auth
+
+    <string name="hint_phone_number">Enter Phone Number</string>
+    <string name="hint_verification_code">Verification Code</string>
+    <string name="start_phone_auth">Send verification code</string>
+    <string name="verify_phone_auth">Verify code</string>
+    <string name="resend_phone_auth">Resend OTP</string>
+
+    <string name="google_tbc_id">986801385712-mntalb5ddhphfgohm5c073m944h9cmrt.apps.googleusercontent.com</string>
+    <string name="shared_second">Second</string>
+    <string name="MAP_API_KEY">AIzaSyAxXrq1mPecI91_DMJe81fPUFSq0wNqHfI</string>
+    // new
+    <string name="MAP_API_KEY_OLD">AIzaSyAU5w3TXGVTSz0xSMBUiBSmCPGwn2CIpiQ</string>
+    // Old
+    <string name="shared_minute">Minute</string>
+    <string name="shared_hour">Hour</string>
+
+    <string name="error_connection">Connection error</string>
+    <string name="error_general">Server request error</string>
+    <string name="error_invalid_url">Invalid server URL</string>
+    <string name="error_invalid_frequency">Frequency must be a valid number</string>
+
+    <string name="devices_title">Vehicles</string>
+    <string name="send_command_title">Send command</string>
+    <string name="settings_title">Settings</string>
+    <string name="logout_title">Logout</string>
+    <string name="map_type">MapType</string>
+    <string name="title_notify">Notification</string>
+
+    <string name="settings_url">Server</string>
+    <string name="settings_email">Mobile</string>
+
+    <string name="settings_password">Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="phone_hint">Enter your 10 digit phone number</string>
+
+    <string name="user_kn">kn</string>
+    <string name="user_kmh">km/h</string>
+    <string name="user_mph">mph</string>
+
+    <string name="position_time">Time</string>
+    <string name="position_latitude">Latitude</string>
+    <string name="position_longitude">Longitude</string>
+    <string name="position_speed">Speed</string>
+    <string name="position_altitude">Altitude</string>
+    <string name="position_course">Course</string>
+
+    <string name="action_show_on_map">Show on map</string>
+    <string name="action_send_command">Send command</string>
+
+    <string name="command_command">Command</string>
+    <string name="command_frequency_frequency">Frequency</string>
+    <string name="command_frequency_unit">Unit</string>
+    <string name="command_send">Send</string>
+    <string name="command_sent">Command has been sent</string>
+
+    <string name="command_alarm_arm">Arm</string>
+    <string name="command_alarm_disarm">Disarm</string>
+    <string name="command_engine_stop">Engine Stop</string>
+    <string name="command_engine_resume">Engine Resume</string>
+    <string name="command_position_periodic">Periodic Reporting</string>
+    <string name="command_frequency">Frequency</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="first_intro">Create Team!</string>
+    <string name="second_intro">Add Player!</string>
+    <string name="third_intro">Scan QR Codes and Earn Points!</string>
+    <string name="fourth_intro">Dashboard and Leaderboard!</string>
+    <string name="first_intro_txt">Sign up and create your own team</string>
+    <string name="second_intro_txt">You can have a maximum of 6 players in your team</string>
+    <string name="third_intro_txt">Scan the 20 QR codes around Mayesbrook to earn points</string>
+    <string name="fourth_intro_txt">You can view your points on the dashboard and leaderboard</string>
+    <string name="fifth_intro_txt">Internet and GPS are required to use this app</string>
+
+
+</resources>
